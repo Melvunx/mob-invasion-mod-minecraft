@@ -30,7 +30,7 @@ public class PortalSpawnManager {
 
         long dayTime = level.getDayTime() % 24000;
         if (dayTime < 13000 || dayTime > 23000) {
-            MobInvasion.LOGGER.info("During the day, no portail !");
+            MobInvasion.LOGGER.info("During the day, no portal !");
             return;
         }
 
