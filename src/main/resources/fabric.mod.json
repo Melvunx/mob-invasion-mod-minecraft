@@ -2,14 +2,14 @@
 	"schemaVersion": 1,
 	"id": "mob-invasion",
 	"version": "${version}",
-	"name": "mob-invasion",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Mob Invasion !",
+	"description": "Interdimensionals portals appear in your world ! Fight them !",
 	"authors": [
-		"Me!"
+		"Melvunx"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Melvunx/mob-invasion-mod-minecraft"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/mob-invasion/icon.png",
