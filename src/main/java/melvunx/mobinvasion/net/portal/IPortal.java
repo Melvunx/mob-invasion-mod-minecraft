@@ -9,11 +9,13 @@ public interface IPortal {
     // Start the mob spawn wave
     void startWaves(ServerLevel level);
 
+
     // Called every ticks
     void tick(ServerLevel level);
 
     //Open a portal
     void open(ServerLevel level);
+
 
     // Close and delete the portal
     void close(ServerLevel level);

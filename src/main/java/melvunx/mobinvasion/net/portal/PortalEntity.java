@@ -9,6 +9,7 @@ import net.minecraft.sounds.SoundSource;
 
 public abstract class PortalEntity implements IPortal {
     protected BlockPos position;
+
     protected int ticksAlive = 0;
     protected int currentWave = 0;
     protected int ticksSinceLastWave = 0;
@@ -33,6 +34,16 @@ public abstract class PortalEntity implements IPortal {
         // Every tick
         spawnParticles(level);
         playAmbientSound(level);
+
+        // Première vague immédiatement à l'ouverture
+        if (currentWave == 0) {
+            currentWave++;
+            ticksSinceLastWave = 0;
+            MobInvasion.LOGGER.info("[{}] Wave {} / {} on the portal in {}",
+                    getPortalId(), currentWave, getWaveCount(), position);
+            startWaves(level);
+            return;
+        }
 
         // Launch a new wave on the right time
         if (ticksSinceLastWave >= WAVE_INTERVAL && currentWave < getWaveCount()) {
