@@ -30,6 +30,13 @@ public class ZombiePortalEntity extends PortalEntity {
     }
 
     @Override
+    protected net.minecraft.core.particles.ParticleOptions getPortalParticle() {
+        // Green particles
+        return net.minecraft.core.particles.ParticleTypes.HAPPY_VILLAGER;
+    }
+
+
+    @Override
     public int getLifetimeTicks() {
         return LIFETIME;
     }

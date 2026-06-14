@@ -12,12 +12,15 @@ public interface IPortal {
     // Called every ticks
     void tick(ServerLevel level);
 
+    //Open a portal
+    void open(ServerLevel level);
+
     // Close and delete the portal
     void close(ServerLevel level);
 
     boolean shouldClose(ServerLevel level);
 
-    // Get portal life time
+    // Get portal lifetime
     int getLifetimeTicks();
 
     int getWaveCount();

@@ -73,6 +73,7 @@ public class PortalSpawnManager {
 
         if (portalPos != null) {
             ZombiePortalEntity portal = new ZombiePortalEntity(portalPos);
+            portal.open(level);
             activePortals.add(portal);
             MobInvasion.LOGGER.info("Zombie portal spawn in {} !", portalPos);
         }
