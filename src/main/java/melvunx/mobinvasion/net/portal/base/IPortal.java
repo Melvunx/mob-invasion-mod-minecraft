@@ -1,4 +1,4 @@
-package melvunx.mobinvasion.net.portal;
+package melvunx.mobinvasion.net.portal.base;
 
 import net.minecraft.server.level.ServerLevel;
 

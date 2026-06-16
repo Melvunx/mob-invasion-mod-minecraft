@@ -1,4 +1,4 @@
-package melvunx.mobinvasion.net.portal;
+package melvunx.mobinvasion.net.portal.base;
 
 import melvunx.mobinvasion.net.MobInvasion;
 import net.minecraft.core.BlockPos;

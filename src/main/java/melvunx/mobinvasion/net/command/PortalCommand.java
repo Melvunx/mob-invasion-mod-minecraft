@@ -2,7 +2,7 @@ package melvunx.mobinvasion.net.command;
 
 import com.mojang.brigadier.CommandDispatcher;
 import melvunx.mobinvasion.net.MobInvasion;
-import melvunx.mobinvasion.net.spawn.PortalSpawnManager;
+import melvunx.mobinvasion.net.portal.base.spawn.PortalSpawnManager;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.Commands;
 import net.minecraft.core.BlockPos;

@@ -1,6 +1,6 @@
 package melvunx.mobinvasion.net.portal.zombie;
 
-import melvunx.mobinvasion.net.portal.PortalEntity;
+import melvunx.mobinvasion.net.portal.base.PortalEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.EntityType;

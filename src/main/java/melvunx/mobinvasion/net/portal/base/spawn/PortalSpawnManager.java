@@ -1,7 +1,7 @@
-package melvunx.mobinvasion.net.spawn;
+package melvunx.mobinvasion.net.portal.base.spawn;
 
 import melvunx.mobinvasion.net.MobInvasion;
-import melvunx.mobinvasion.net.portal.PortalEntity;
+import melvunx.mobinvasion.net.portal.base.PortalEntity;
 import melvunx.mobinvasion.net.portal.zombie.ZombiePortalEntity;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.minecraft.core.BlockPos;
